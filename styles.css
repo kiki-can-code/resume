@@ -46,13 +46,13 @@
 
 /* Dark Theme */
 [data-theme="dark"] {
-    --color-bg: #0f0f0f;
+    --color-bg: #082200;
     --color-bg-subtle: #1a1a1a;
     --color-bg-elevated: #222222;
     --color-text: #e8e6e3;
     --color-text-subtle: #a8a8a8;
     --color-text-muted: #6a6a6a;
-    --color-accent: #7eb89a;
+    --color-accent: #0a5e33;
     --color-accent-hover: #a3d4bc;
     --color-border: #2a2a2a;
     --color-border-subtle: #1f1f1f;
@@ -388,7 +388,8 @@ section {
    ============================================ */
 
 .background-content p {
-    font-size: 1.125rem;
+    font-size: 1rem;
+    color: var(--color-text-muted);
 }
 
 /* ============================================
