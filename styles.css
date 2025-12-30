@@ -448,67 +448,15 @@ section {
     color: var(--color-accent);
 }
 
+.job-degree {
+    font-size: 1.125rem;
+    margin-bottom: var(--space-xs);
+
+}
+
 .job-content p {
     color: var(--color-text-subtle);
 }
-
-/* ============================================
-   Education Section
-   ============================================ */
-
-.education-list {
-    margin: 0;
-    padding: 0;
-}
-
-.education-item {
-    margin-bottom: var(--space-xl);
-    padding-bottom: var(--space-xl);
-    border-bottom: 1px solid var(--color-border-subtle);
-}
-
-.education-item:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.education-item dt {
-    font-family: var(--font-display);
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: var(--space-xs);
-}
-
-.education-item dd {
-    margin: 0;
-    padding: 0;
-}
-
-.edu-date {
-    font-family: var(--font-mono);
-    font-size: 0.875rem;
-    color: var(--color-text-muted);
-    margin-bottom: var(--space-sm);
-}
-
-.edu-degree {
-    font-size: 1.125rem;
-    margin-bottom: var(--space-xs);
-}
-
-.edu-focus {
-    font-family: var(--font-mono);
-    font-size: 0.8125rem;
-    color: var(--color-accent);
-    margin-bottom: var(--space-md);
-}
-
-.edu-detail {
-    color: var(--color-text-subtle);
-    font-size: 1rem;
-}
-
 /* ============================================
    Skills Section
    ============================================ */
