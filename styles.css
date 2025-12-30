@@ -28,17 +28,26 @@
 
 /* Light Theme (default) */
 [data-theme="light"] {
-    --color-bg: #faf9f7;
-    --color-bg-subtle: #f0eeeb;
-    --color-bg-elevated: #ffffff;
-    --color-text: #1a1a1a;
-    --color-text-subtle: #555555;
-    --color-text-muted: #888888;
-    --color-accent: #2d5a45;
-    --color-accent-hover: #1e3d2f;
-    --color-border: #e0ddd8;
-    --color-border-subtle: #eae7e2;
-    --color-link: #2d5a45;
+  /* Backgrounds */
+  --color-bg: #f3f7f5;              /* sehr helles Salbei-Grau */
+  --color-bg-subtle: #e7efec;       /* leicht grünlich für Sections */
+  --color-bg-elevated: #ffffff;    /* Karten / Contentflächen */
+
+  /* Text */
+  --color-text: #162521;            /* dunkles Grün statt Schwarz */
+  --color-text-subtle: #344b44;     /* weich, gut lesbar */
+  --color-text-muted: #6b837b;      /* Meta / sekundär */
+
+  /* Accent */
+  --color-accent: #2f8f73;          /* klares, lebendiges Grün */
+  --color-accent-hover: #256f59;    /* satt, aber nicht hart */
+
+  /* Borders */
+  --color-border: #cfe0d9;          /* grünliche Linie */
+  --color-border-subtle: #e2ece8;
+
+  /* Links */
+  --color-link: #2f8f73;
     --color-highlight: rgba(45, 90, 69, 0.08);
     --shadow-soft: 0 1px 3px rgba(0,0,0,0.04);
     --shadow-elevated: 0 4px 20px rgba(0,0,0,0.06);
