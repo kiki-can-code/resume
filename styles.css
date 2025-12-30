@@ -46,17 +46,26 @@
 
 /* Dark Theme */
 [data-theme="dark"] {
-    --color-bg: #082200;
-    --color-bg-subtle: #1a1a1a;
-    --color-bg-elevated: #222222;
-    --color-text: #e8e6e3;
-    --color-text-subtle: #a8a8a8;
-    --color-text-muted: #6a6a6a;
-    --color-accent: #0a5e33;
-    --color-accent-hover: #a3d4bc;
-    --color-border: #2a2a2a;
-    --color-border-subtle: #1f1f1f;
-    --color-link: #7eb89a;
+   /* Backgrounds */
+  --color-bg: #0f1b17;              /* tiefes, warmes Tannengrün */
+  --color-bg-subtle: #162622;       /* leicht heller für Sections */
+  --color-bg-elevated: #1c2f2a;     /* Cards / Boxen */
+
+  /* Text */
+  --color-text: #e6ece9;            /* sehr helles Grau mit Grünanteil */
+  --color-text-subtle: #c2cbc7;     /* Secondary Text */
+  --color-text-muted: #8f9c96;      /* Meta / Hinweise */
+
+  /* Accent */
+  --color-accent: #6fb39a;          /* entsättigtes Salbei-Grün */
+  --color-accent-hover: #8fcbb4;    /* weicher Hover, nicht grell */
+
+  /* Borders */
+  --color-border: #2a3f39;          /* sichtbar aber unaufdringlich */
+  --color-border-subtle: #1f332e;   /* sehr subtil */
+
+  /* Links */
+  --color-link: #6fb39a;
     --color-highlight: rgba(126, 184, 154, 0.1);
     --shadow-soft: 0 1px 3px rgba(0,0,0,0.3);
     --shadow-elevated: 0 4px 20px rgba(0,0,0,0.4);
@@ -389,7 +398,7 @@ section {
 
 .background-content p {
     font-size: 1rem;
-    color: var(--color-text-muted);
+    color: var(--color-text-subtle);
 }
 
 /* ============================================
