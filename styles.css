@@ -361,7 +361,7 @@ em {
    ============================================ */
 
 .background-content p {
-    font-size: 1rem;
+    font-size: 1.125rem;
     color: var(--color-text-subtle);
 }
 
