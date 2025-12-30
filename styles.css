@@ -392,14 +392,6 @@ section {
     margin-bottom: var(--space-2xl);
 }
 
-/* ============================================
-   Background Section
-   ============================================ */
-
-.background-content p {
-    font-size: 1rem;
-    color: var(--color-text-subtle);
-}
 
 /* ============================================
    Experience Section
