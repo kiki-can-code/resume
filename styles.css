@@ -46,26 +46,26 @@
 
 /* Dark Theme */
 [data-theme="dark"] {
-   /* Backgrounds */
-  --color-bg: #0f1b17;              /* tiefes, warmes Tannengrün */
-  --color-bg-subtle: #162622;       /* leicht heller für Sections */
-  --color-bg-elevated: #1c2f2a;     /* Cards / Boxen */
+  /* Backgrounds */
+  --color-bg: #0c1f1a;              /* dunkles, sattes Waldgrün */
+  --color-bg-subtle: #14322a;       /* klarer Grünstich */
+  --color-bg-elevated: #1b4035;     /* sichtbar abgehoben */
 
   /* Text */
-  --color-text: #e6ece9;            /* sehr helles Grau mit Grünanteil */
-  --color-text-subtle: #c2cbc7;     /* Secondary Text */
-  --color-text-muted: #8f9c96;      /* Meta / Hinweise */
+  --color-text: #eaf3ef;            /* fast weiß, aber grünlich */
+  --color-text-subtle: #c7d8d1;     /* merklich grün */
+  --color-text-muted: #8faea3;      /* gut lesbar, nicht grau */
 
   /* Accent */
-  --color-accent: #6fb39a;          /* entsättigtes Salbei-Grün */
-  --color-accent-hover: #8fcbb4;    /* weicher Hover, nicht grell */
+  --color-accent: #4fc3a1;          /* frisches, modernes Grün */
+  --color-accent-hover: #6fd6b8;    /* lebendiger Hover */
 
   /* Borders */
-  --color-border: #2a3f39;          /* sichtbar aber unaufdringlich */
-  --color-border-subtle: #1f332e;   /* sehr subtil */
+  --color-border: #2f5f51;          /* klarer als vorher */
+  --color-border-subtle: #23473c;
 
   /* Links */
-  --color-link: #6fb39a;
+  --color-link: #4fc3a1;
     --color-highlight: rgba(126, 184, 154, 0.1);
     --shadow-soft: 0 1px 3px rgba(0,0,0,0.3);
     --shadow-elevated: 0 4px 20px rgba(0,0,0,0.4);
